@@ -1,8 +1,5 @@
 class Node : 
-    def __init__(self,data,parent):
-        self._data = data
-        self._children = []
-        self._parent = parent
+    def __init__(self,data):
 
 class Tree:
     def __init__(self, data, parent):
