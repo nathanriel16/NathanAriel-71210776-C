@@ -47,7 +47,7 @@ class BinaryTree:
 
     def hasilGanjil(self):
         self.sumGanjil(self.root)
-        return "Penjumlahan data ganjil", self.odds
+        return "Penjumlahan data ganjil = " + str(self.odds)
 
 
 if __name__ == '__main__':
